@@ -139,6 +139,7 @@ int main() {
 	printf("\t1 - Resgitrar nomes\n");
 	printf("\t2 - Consultar nomes\n");
 	printf("\t3 - Deletar nomes\n");
+	printf("\t4 - Sair do sistema");
 	
 	printf("\n\n\t Opção:\t"); //Fim do menu
 	
@@ -164,8 +165,13 @@ int main() {
 	    	delete(); //Chamada de função
 	    	break; //Encerra a execução da função
 	    	
+	    case 4:
+	    	printf("Obrigado por usar o sistema.");
+	    	return 0;
+	    	break;
 	    	
-	     default:
+	    	
+	    default:
 	     	printf("Essa opção não existe.\n\n"); 
 	     	system("pause"); //Pausa a tela
 	     	break; //Encerra a execução sa instrução 
